@@ -1,0 +1,28 @@
+First analysis provided no further C2 or additional files spawned, however I have been notified roughly two hours after first inspection C2 domains / IPs began to
+appear - ( first five test suggested domain belonged in France with a high level of confidence it had hallmakrs of Remcos, domain was down at the time )
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: FACTURA_LIVERPOOL_ODM950324V2A_2021070200133021000011.pdf
+MD5: 63b548dc74f5edcfa92f3454c18aa1a9
+SHA256: 1326882e04b4059cf316313cfe76667631973bfe1a5a74a22c0d0285eae78420
+File Size: 51265 bytes (50K)
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Factura_pago.exe
+MD5: 92530d4526ee37b7d0bc551fc48dadca
+SHA256: 6046aa7ce940fd089a5db356a994af26f1a7c4aa592aa02c56acef147e443488
+File Size: 3373 bytes (3K)
+
+Payload URL(s):
+hXXp://www1[.]mexfactura[.]shop/spei_pago/index.php
+
+Payload IP(s):
+24.152.38.151
+
+Malware Family/Delivery Mechanism(s):
+Banking Trojan
+
+Phenotype(s):
+Banker
